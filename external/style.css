@@ -1,0 +1,12 @@
+body {
+    background-color: black; 
+    color: white;           /*color of text*/
+    /*text-align: center;
+    font-family: verdana;             just some stuff to try later
+    font-size: 20px;*/
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }
