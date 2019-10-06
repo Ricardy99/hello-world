@@ -5,8 +5,12 @@ body {
     font-family: verdana;             just some stuff to try later
     font-size: 20px;*/
   }
+
+
   
-  h1 {
+  
+  div.cont {
     color: navy;
-    margin-left: 20px;
+    /*color:blue;"  */
+    margin-left: 10px;
   }
