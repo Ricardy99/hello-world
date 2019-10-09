@@ -1,14 +1,12 @@
 body {
     background-color: black; 
     color: white;           /*color of text*/
+    font-size: 20px;
     /*text-align: center;
     font-family: verdana;             just some stuff to try later
     font-size: 20px;*/
   }
 
-
-  
-  
   div.cont {
     color: navy;
     /*color:blue;"  */
