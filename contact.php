@@ -41,19 +41,19 @@ function noSpecialChars(input) {
     <option value="other">Other</option>
   </select>
 
-  <!--<a href="index.html"><button>Submit</button></a><br> -->
+  <!--<a href="index.php"><button>Submit</button></a><br> -->
   
   <button onclick="myFunction()">Submit</button>
 
 <script>
 function myFunction() {
 	alert("Thanks! ttyl");
-	location.replace("index.html");
+	location.replace("index.php");
 }
 </script>
   
 
-  <p3>...or you can go back to the <a href="index.html">home page</a> or the <a href="options.html">options</a> page</p3>
+  <p3>...or you can go back to the <a href="index.php">home page</a> or the <a href="options.php">options</a> page</p3>
 
 </body>
 </html>

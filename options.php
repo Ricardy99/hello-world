@@ -11,7 +11,7 @@
 
 <br>
 <p2>Don't worry, I'll eventually add stuff but for now, well...</p2>
-<p3>You can go back to the <a href="index.html">home page</a></p3>
+<p3>You can go back to the <a href="index.php">home page</a></p3>
 
 <h2>This is a Navy Heading, heading 2</h2>
 

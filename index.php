@@ -10,10 +10,10 @@
 <p1><b>Hello</b> this is my first HTML page. Go to  <a href=https://google.com><u>google</u></a> or do whatever you want :)<br></p1>
 <!--<a href='https://cisco.com'><img src='images/first.jpg' width="300" height="200"></a><br>-->
 
-<p2>Now, for more options, click <a href=options.html>on this</a> and good luck!</p2>
+<p2>Now, for more options, click <a href=options.php>on this</a> and good luck!</p2>
 
-<p>To refresh the page, click on<a href="index.html"><button>this</button></p></a>
+<p>To refresh the page, click on<a href="index.php"><button>this</button></p></a>
 
-<p>To see a list of random things and/or contact us, click on <a href="contact.html">this!</a></p>
+<p>To see a list of random things and/or contact us, click on <a href="contact.php">this!</a></p>
 </body>
 </html>
