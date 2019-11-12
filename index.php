@@ -15,6 +15,6 @@
 <p>To refresh the page, click on<a href="index.php"><button>this</button></p></a>
 
 <p>To see a list of random things and/or contact us, click on <a href="contact.php">this!</a></p>
-<p>There's also another contact form with php<a href="contact.php">here</a></p>
+<p>There's also another contact form with php<a href="contact_form.php">here</a></p>
 </body>
 </html>
