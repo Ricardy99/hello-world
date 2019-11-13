@@ -9,22 +9,17 @@
 	<div class="container">
 		<div class="main">
 		<h2>PHP Contact Form with Validation</h2>
-			<form method="post" action="contact_form.php">
-			<label>Name :</label>
-			<input class="input" type="text" name="name" value="">
-			<span class="error"><?php echo $nameError;?></span>
-			<label>Email :</label>
-			<input class="input" type="text" name="email" value="">
-			<span class="error"><?php echo $emailError;?></span>
-			<label>Purpose :</label>
-			<input class="input" type="text" name="purpose" value="">
-			<span class="error"><?php echo $purposeError;?></span>
-			<label>Message :</label>
-			<textarea name="message" val=""></textarea>
-			<span class="error"><?php echo $messageError;?></span>
-			<input class="submit" type="submit" name="submit" value="Submit">
-			<span class="success"><?php echo $successMessage;?></span>
-			</form>
+	<form name="registrationform" action="contact_form.php" method="post">
+    First Name:<input type="text" name="firstname">
+    Last Name:<input type="text" name="lastname">
+    Email:<input type="text" name="email">
+    Username:<input type="text" name="username">
+    Password:<input type="password" name="password">
+    Confirm Password:<input type="password" name="passwordconf">
+    Security Question:<input type="text" name="securityq">
+    Answer:<input type="text" name="qanswer">
+    <input type="submit" name="submit" value="Register">
+	</form>			
 		</div>
 	</div>
 </body>
