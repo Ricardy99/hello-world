@@ -13,6 +13,8 @@
 <p2>Don't worry, I'll eventually add stuff but for now, well...</p2>
 <p3>You can go back to the <a href="index.php">home page</a></p3>
 
+<p3>You can also check your <a href="usr_agent.php">user agent</a> if you want to</p3>
+
 <h2>This is a Navy Heading, heading 2</h2>
 
 <div class = 'cont'>
