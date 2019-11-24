@@ -1,4 +1,5 @@
-<?php include 'external/validation.php';?>
+<?php include 'external/validation.php';
+	  ?>
 <!DOCTYPE html>
 <html>
 <head>
