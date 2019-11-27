@@ -19,7 +19,7 @@
 			echo $row['title'];
 		}
 	}
-		
+?>		
 
 </body>
 </html>

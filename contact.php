@@ -17,7 +17,8 @@
     Name: <input type="text" input id="name" name="name" placeholder="first-name last-name" size="30" onkeyup="lettersOnly(this)"><br>
     Email: <input type="text" input id="email" name="email" placeholder="user@site.xx" size="30" onkeyup="noSpecialChars(this)"><br>
     Phone: <input type="text" input id="phone" name="phone" placeholder="123-123-1234" size="30" onkeyup="numbersOnly(this)"><br>
-    Date of birth: <input type="text" input id="birthdate" name="birthdate" placeholder="dd-mm-yyyy" size="10" onkeyup="numbersOnly(this)">
+	Gender: <input type="text" input id="gender" name="gender" placeholder="M or F" size="10" maxlength="1" onkeyup="lettersOnly"><br>
+    Date of birth: <input type="text" input id="birthdate" name="birthdate" placeholder="dd-mm-yyyy" size="10" maxlength="10" onkeyup="numbersOnly(this)">
   </fieldset>
   <input type="submit" name="submit" value="Contact">
 </form>
