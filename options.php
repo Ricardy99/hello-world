@@ -14,8 +14,7 @@
 <p3>You can go back to the <a href="index.php">home page</a></p3>
 
 <p3>You can also check your <a href="usr_agent.php">user agent</a> if you want to</p3>
-
-<h2>This is a Navy Heading, heading 2</h2>
+<p3>or check the <a href="get_coninfo.php">contact</a> table in the info database</p3>
 
 <div class = 'cont'>
 	<h3>This is a heading heading 3</h3>
