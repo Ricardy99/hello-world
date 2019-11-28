@@ -1,5 +1,4 @@
-<?php include 'external/validation.php';
-	  ?>
+<?php include 'external/validation.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,13 +10,13 @@
 
 <p>Now enter you information and we might get in touch</p>
 
-<form name="contactform" method="post" action="studentadded.php"> /*previously contact.php*/
+<form name="contactform" method="post" action="contact.php">
   <fieldset>
     <legend><b>Your Information:</b></legend>
     Name: <input type="text" input id="name" name="name" placeholder="first-name last-name" size="30" onkeyup="lettersOnly(this)"><br>
     Email: <input type="text" input id="email" name="email" placeholder="user@site.xx" size="30" onkeyup="noSpecialChars(this)"><br>
     Phone: <input type="text" input id="phone" name="phone" placeholder="123-123-1234" size="30" onkeyup="numbersOnly(this)"><br>
-	Gender: <input type="text" input id="gender" name="gender" placeholder="M or F" size="10" maxlength="1" onkeyup="lettersOnly(this)"><br>
+    Gender: <input type="text" input id="gender" name="gender" placeholder="M or F" size="10" maxlength="1" onkeyup="lettersOnly(this)"><br>
     Date of birth: <input type="text" input id="birthdate" name="birthdate" placeholder="yyyy-mm-dd" size="10" maxlength="10" onkeyup="numbersOnly(this)">
   </fieldset>
   <input type="submit" name="submit" value="Send">
