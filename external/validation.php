@@ -6,11 +6,12 @@ $sex = $_POST['gender'];
 $birthdate = $_POST['birthdate'];
 
 //Things to log in
-$username = 'php';
+/*$username = 'php';
 $password = 'password';
 $servername = 'localhost';
-$dbname = 'info';
+$dbname = 'info';*/
 
+require_once('../../mysqli_connect.php');
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
 
