@@ -16,7 +16,7 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 
 
 if(isset($_POST['submit'])){
-    if(empty($_POST['name']) || empty($_POST['email']) || empty($_POST['phone']) || empty($_POST['gender'] || empty($_POST['birthdate']))
+    if(empty($_POST['name']) || empty($_POST['email']) || empty($_POST['phone']) || empty($_POST['gender']) || empty($_POST['birthdate']))
     {
 	echo "FILL ALL FIELDS!!";
     }
