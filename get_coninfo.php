@@ -41,11 +41,11 @@ echo '</table>';
  
 echo "Couldn't issue database query<br />";
  
-echo mysqli_error($dbc);
+echo mysqli_error($conn);
  
 }
  
 // Close connection to the database
-mysqli_close($dbc);
+mysqli_close($conn);
  
 ?>
