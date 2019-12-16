@@ -11,6 +11,7 @@ $password = 'password';
 $servername = 'localhost';
 $dbname = 'info';
 
+//require_once('../../mysqli_connect.php');
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
 
